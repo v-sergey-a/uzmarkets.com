@@ -1,0 +1,42 @@
+<% layout( '_layout') %>
+
+    <div class="container">
+        <div class="jumbotron text-center">
+            <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#registration-form">
+                Создать интернет магазин
+            </button>
+        </div>
+        <!-- /.jumbotron -->
+    </div>
+    <!-- /.container -->
+
+    <div class="modal fade" id="registration-form">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <form>
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span>&times;</span>
+                        </button>
+                        <h4 class="modal-title">Зарегистрироваться</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Пароль</label>
+                            <input type="password" class="form-control">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Готово</button>
+                    </div>
+                </form>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal #registration-form-->
